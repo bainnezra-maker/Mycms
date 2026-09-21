@@ -1,7 +1,7 @@
 {
   "name": "church-management-system",
   "private": true,
-  "version": "2.0.0-test",
+  "version": "3.0.0-combined",
   "type": "module",
   "scripts": {
     "dev": "vite",
