@@ -1,19 +1,22 @@
-# Church Management System v1.3.0
+# Church Management System v1.4.0 — Premium Interface + Connected People
 
-## Phase 1 completion upgrade
-- Church Setup workspace added to the church portal.
-- Secure staff invitation flow via Supabase Edge Function.
-- Pending invitation is claimed automatically when the invited user account is created.
-- Role membership is created automatically after invitation acceptance.
-- Senior Pastor / Administrator onboarding status updates automatically.
-- Church branding completion workflow added.
-- Platform Owner activation workflow added.
-- Existing church and ministry data are preserved.
+## Premium visual system
+- New ChurchCMS-inspired clean SaaS interface direction with original CMS branding.
+- Lato typography, bold headings, generous whitespace, soft blue/white surfaces and purple-pink accent treatment.
+- Redesigned login, owner/church shells, navigation, cards, forms, tables, status pills and responsive layouts.
+- Smooth page, hover, navigation, button and status micro-animations.
+- Reduced-motion accessibility remains supported.
 
-## Backend deployed with this release
-- Migration 024: secure staff invitation claim, branding RPC, activation RPC.
-- Edge Function: invite-church-staff (JWT protected).
+## Connected People workspace
+- People now opens a purpose-built searchable directory instead of generic CRUD.
+- New connected Person Profile workspace.
+- Edit core contact/profile information.
+- Attendance, lifetime giving and follow-up summary cards.
+- Attendance, giving and follow-up history.
+- Connect a person to a family, ministry and group.
+- Display current family/ministry/group relationships.
 
-## Notes
-- Do not commit Supabase service-role credentials to this repository.
-- Staff choose/set their password through the secure Supabase invitation flow.
+## Backend compatibility
+- Uses person_profile_summary and person_relationships added in migration 027.
+- Uses secure family/ministry/group RPCs from migration 026.
+- Existing church records are preserved.
