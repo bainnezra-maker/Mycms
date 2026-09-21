@@ -17,3 +17,7 @@ Keep the existing Vercel environment variables:
 - VITE_SUPABASE_PUBLISHABLE_KEY
 
 Do not put the Supabase service-role key in this frontend.
+
+
+## v0.4.1
+Fixed Platform Owner routing: sign-in passes through the owner authorization gate; non-owner users are redirected to their church portal; Platform Owner visiting /portal without a selected church returns to /owner.
