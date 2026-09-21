@@ -25,3 +25,7 @@ Fixed Platform Owner routing: sign-in passes through the owner authorization gat
 
 ## v0.4.3
 Onboarding no longer depends on the failing Edge Function. Platform Owner creates the organization and headquarters through existing RLS-protected Supabase tables; failed headquarters creation rolls back the organization. Detailed errors are shown in the UI.
+
+
+## v0.4.4
+Added Vercel SPA rewrite so direct links such as /owner and /portal?org=... load the React application instead of returning a Vercel 404.
