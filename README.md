@@ -1,4 +1,4 @@
-# BIRITECH CHMS — v0.2
+# CHMS — v0.2
 
 Premium multi-tenant Church Management System. This project is separate from BIRITECH SMS.
 
