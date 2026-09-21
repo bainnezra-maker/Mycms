@@ -1,22 +1,9 @@
-# Church Management System v1.4.0 — Premium Interface + Connected People
+# Complete Testing Build 2.0
 
-## Premium visual system
-- New ChurchCMS-inspired clean SaaS interface direction with original CMS branding.
-- Lato typography, bold headings, generous whitespace, soft blue/white surfaces and purple-pink accent treatment.
-- Redesigned login, owner/church shells, navigation, cards, forms, tables, status pills and responsive layouts.
-- Smooth page, hover, navigation, button and status micro-animations.
-- Reduced-motion accessibility remains supported.
+This release is the consolidated church-management testing build based on the live multi-tenant Supabase backend.
 
-## Connected People workspace
-- People now opens a purpose-built searchable directory instead of generic CRUD.
-- New connected Person Profile workspace.
-- Edit core contact/profile information.
-- Attendance, lifetime giving and follow-up summary cards.
-- Attendance, giving and follow-up history.
-- Connect a person to a family, ministry and group.
-- Display current family/ministry/group relationships.
+Operational internal workflows include owner/church setup, staff invitations, people profiles and relationships, first timers and follow-up, attendance, giving/finance records, events, service planning, resources/bookings, ministries/groups, volunteers, communication records, media, testimonies, prayer, pastoral care, missions, forms, reports and settings.
 
-## Backend compatibility
-- Uses person_profile_summary and person_relationships added in migration 027.
-- Uses secure family/ministry/group RPCs from migration 026.
-- Existing church records are preserved.
+The interface uses the premium Lato-based SaaS visual system with responsive layouts and motion-reduction accessibility.
+
+External delivery/settlement services are intentionally provider-dependent: real SMS/email sending, Mobile Money/payment settlement and livestream transport require the church's provider credentials and cannot be truthfully marked live until configured.
